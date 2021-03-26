@@ -1,0 +1,147 @@
+body, html{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+/*************** header config *************/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    height: 7%;
+    width: 84%;
+}
+.search{
+
+    color: rgba(138, 122, 122, 0.829);
+}
+.image{
+    
+    color: rgba(138, 122, 122, 0.829);
+}
+.map{
+    
+    color: rgba(138, 122, 122, 0.829);
+}
+.video{
+    
+    color: rgba(138, 122, 122, 0.829);
+}
+.news{
+    
+    color: rgba(138, 122, 122, 0.829);
+}
+.bars{
+    
+    color: rgba(138, 122, 122, 0.829);
+}
+.header-left{
+    /*margin-left: 120px;*/
+}
+.header-left>span {
+    margin-right: 30px;
+}
+.header-right{
+    margin-right: 170px;
+}
+.header-right>span {
+    margin-right: 13px;
+}
+
+/**************** footer config ***************/
+
+.footer{   
+   display: flex;
+   align-items: center;
+   height: 6%;
+   background-color: rgb(231, 218, 218);
+}
+.footer>span{
+    margin-right: 17px;
+    color: rgb(214, 200, 200);
+}
+.wraper{
+  
+   width: 85%;
+   margin: auto;
+}
+
+.wraper> span{
+    margin-right: 13px;
+    font-size: 13px;
+}
+
+/******************* body config ********************/
+.main-body{
+    height: 100%;
+}
+.main-wraper{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    
+}
+.main-wraper > span{
+    margin-bottom: 13px;
+}
+.container1{
+    margin-bottom: 13px;
+}
+.container1>span{
+    margin-bottom: 7px;
+}
+.span-text{
+    color: rgb(212, 190, 190);
+}
+.span-space{
+    margin-right: 13px;
+}
+.container2{
+    margin-bottom: 13px;
+}
+.container3{
+    margin-bottom: 13px;
+}
+.container4{
+    margin-bottom: 13px;
+}
+.container5{
+    margin-bottom: 13px;
+}
+.container6{
+    margin-bottom: 13px;
+}
+.span-color{
+    color: rgb(110, 196, 24);
+    font-size: 20px;
+}
+.chevron{
+    margin-right: 5px;
+    font-size: 10px;
+}
+.span-translate{
+    font-size: 17px;
+}
