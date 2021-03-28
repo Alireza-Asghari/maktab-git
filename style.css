@@ -141,9 +141,12 @@ body, html{
 .chevron{
     margin-right: 5px;
     font-size: 10px;
+    color: blueviolet;
+    padding: 0;
     
 }
 .span-translate{
     font-size: 16px;
+    color: brown;
     
 }
